@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.container{
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+
+}
+
+
+.box{
+    height:50px;
+    width: 200px;
+    margin: 15px;
+   
+}
+
+.blue{
+    background-color: blue;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}

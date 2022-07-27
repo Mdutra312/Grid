@@ -1,0 +1,35 @@
+body{
+    display: grid;
+    height: 100vh;
+    grid-template-areas: 
+    "header header"
+    "main aside"
+    "footer footer";
+    margin: 0px;
+    grid-template-columns: 1fr 220px; /* tamanho das colunas também*/
+    grid-template-rows: 100px 500px; /*tamnaho das colunas*/
+   
+
+}
+
+header{
+    background-color: red;
+    grid-area: header;
+    background-image: url("http://source.unsplash.com/random");
+}
+
+main{
+    background-color: blue;
+    grid-area: main;
+   
+}
+
+aside{
+    background-color: purple;
+    grid-area: aside;
+}
+
+footer{
+    background-color: gray;
+    grid-area: footer;
+}
